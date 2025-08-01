@@ -1,8 +1,8 @@
 
 require('dotenv').config();
 const app = require('./src/app');
-const PORT = process.env.PORT || 5000;
+const config = require('./src/config');
 
-app.listen(PORT, () => {
-console.log(` Server running on port ${PORT}`);
+app.listen(config, () => {
+console.log(`🚀 Server running in ${config.env} mode on port ${config.port}`);
 });
