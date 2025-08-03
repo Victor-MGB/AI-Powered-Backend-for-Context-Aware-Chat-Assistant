@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const authRoutes = require('./routes/auth');
-
+const uploadRoutes = require('./routes/upload');
 const app = express();
 
 // Middlewares
@@ -18,5 +18,7 @@ app.get('/', (req, res) => {
 
 // Auth routes
 app.use('/api/auth', authRoutes);
+// Upload routes
+app.use('/api/upload', uploadRoutes);
 
 module.exports = app;

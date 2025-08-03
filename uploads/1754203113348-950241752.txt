@@ -1,0 +1,56 @@
+| **Day** | **Goal**            | **Tasks**                                                                        |
+| ------- | ------------------- | -------------------------------------------------------------------------------- |
+| Day 8   | Uploading System    | Add file/document upload endpoint (PDF, TXT, etc.)                               |
+| Day 9   | Chunking            | Implement content chunking (break large docs into sections)                      |
+| Day 10  | Embedding System    | Connect OpenAI or HuggingFace for embedding generation                           |
+| Day 11  | Store Embeddings    | Integrate Pinecone, Weaviate, or use open-source vector DB like `chromadb`       |
+| Day 12  | Retrieve Embeddings | Build function to query vector DB for relevant chunks                            |
+| Day 13  | Cache + Throttle    | Add Redis caching + request rate limiting for stability                          |
+| Day 14  | Refactor + Cleanup  | Refactor and document code, error handling, add `.env.example` and README update |
+
+
+
+| **Day** | **Goal**              | **Tasks**                                                            |
+| ------- | --------------------- | -------------------------------------------------------------------- |
+| Day 15  | System Prompt         | Create system prompt structure to wrap context + question            |
+| Day 16  | GPT Integration       | Connect to OpenAI GPT endpoint with context-aware prompt             |
+| Day 17  | RAG Workflow          | Build a `/ask` endpoint that combines vector search + GPT completion |
+| Day 18  | Chat Logs             | Save questions/responses to DB for future reference                  |
+| Day 19  | UI Preview (Optional) | Test endpoint via Postman, optionally build a local frontend preview |
+| Day 20  | Add API Docs          | Add Swagger / Redoc for API testing                                  |
+| Day 21  | End-to-End Testing    | Run full flow: register → upload → ask → get AI answer ✅             |
+
+
+| **Day** | **Goal**      | **Tasks**                                                          |
+| ------- | ------------- | ------------------------------------------------------------------ |
+| Day 22  | Security      | Sanitize inputs, enforce HTTPS, helmet.js, CORS strict setup       |
+| Day 23  | Monitoring    | Add logs (winston), error tracking (sentry or self-logs)           |
+| Day 24  | CI/CD Setup   | Add GitHub Actions to auto test + deploy                           |
+| Day 25  | Docker        | Create Dockerfile + `.dockerignore`, test Docker container locally |
+| Day 26  | Deployment    | Deploy to Render / Railway / Vercel Serverless Functions           |
+| Day 27  | Final Test    | Test deployed endpoints with rate limiting, caching, etc.          |
+| Day 28  | Final Docs    | Update README with usage, API routes, examples                     |
+| Day 29  | Record Video  | Record 2-min walkthrough of project for portfolio                  |
+| Day 30  | Resume Update | Add project to your resume + LinkedIn profile 🔥                   |
+
+
+ Deliverables to Add to Portfolio
+GitHub Repo: clean commits, organized structure
+
+Live API URL: deployed and tested
+
+API Docs: Swagger or Redoc interface
+
+Short walkthrough video (Loom/YT)
+
+README.md:
+
+Overview
+
+Tech Stack
+
+Setup Instructions
+
+Example Use Cases
+
+Resume Entry (bullet points)
